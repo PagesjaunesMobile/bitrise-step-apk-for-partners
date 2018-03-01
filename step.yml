@@ -29,16 +29,15 @@ inputs:
   - partner_target_version:
     opts:
       title: "Enter the target version to send"
-      summary: Summary. No more than 2-3 sentences.
+      summary: The target verion is the version of the application you wish to send
       description: |
-        The target verion is the version of the applicatio you wish to send
-
+        
         **example** : 8.12.1
 
       is_expand: true
       is_required: true
 
-  - parner_target_name: "Choose a partner in the list"
+  - partner_target_name: "Choose a partner in the list"
     opts:
       title: "The name of the partner you would like to send"
       is_expand: true
