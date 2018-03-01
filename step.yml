@@ -5,7 +5,7 @@ summary: |
 description: |
   Init partners values to generate APK
 website: https://github.com/PagesJaunesMobile/bitrise-step-apk-for-partners
-source_code_url: https://github.com/PagesJaunesMobile/bitrise-step-apk-for-partners
+source_code_url: https://github.com/PagesJaunesMobile/bitrise-step-apk-for-partners.git
 support_url: https://github.com/PagesJaunesMobile/bitrise-step-apk-for-partners/issues
 host_os_tags:
   - osx-10.10
@@ -37,9 +37,8 @@ inputs:
 
       is_expand: true
       is_required: true
-      value_options: []
 
-  - parner_target_name:
+  - parner_target_name: "Choose a partner in the list"
     opts:
       title: "The name of the partner you would like to send"
       is_expand: true
