@@ -12,4 +12,4 @@ mkdir /tmp/partners_tmp
 cd /tmp/partners_tmp
 
 # get all apk
-wget --user=bbm --password=$PARTNER_FTP_PASSWORD $PARTNER_FTP_PATH/${partner_target_version}/${partner_target_name}/pagesjaunes-${partner_target_version}-${partner_target_name}_emb.apk
+wget --user=bbm --password=$PARTNER_FTP_PASSWORD $PARTNER_FTP_PATH/${partner_target_version}/${partner_target_name}_emb/pagesjaunes-${partner_target_version}-universal-release.apk
