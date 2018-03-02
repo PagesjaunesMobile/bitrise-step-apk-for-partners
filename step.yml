@@ -43,9 +43,12 @@ inputs:
       is_expand: true
       is_required: true
       value_options:
-        - "laposte"
-        - "sfr"
+        - "bt"
         - "huawei"
+        - "laposte"
+        - "logicom"
         - "moblaposte"
+        - "sfr"
+        - "virgin"
 
 outputs:
